@@ -6,8 +6,6 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from time import ctime
 import hashlib
-import logging
-
 
 from .mine import generate_hash
 from .models import PollBlockchain, UserProfile
